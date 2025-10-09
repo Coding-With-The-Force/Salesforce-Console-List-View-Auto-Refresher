@@ -11,6 +11,8 @@
 
 This repo houses the code for a custom Salesforce console list view refresher so that people monitoring list views for inbound cases or other objects will get a refreshed list view automatically instead of needing to press the refresh button on the list view manually. If you wanna try it out just click the "Deploy to Salesforce" button above!   
 
+Also, just in case anyone is wondering why this is an Aura component instead of an LWC. This is currently still the simplest cleanest way to get this functionality to work. None of the functionality available with LWC's can do this as consistently or as clean, even with the support for console apps that was added relatively recently. I have tried many LWC alternatives, and none to date work as flawlessly that I have found.
+
 ---
 
 ### How to setup the console list view refresher
