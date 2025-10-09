@@ -1,0 +1,22 @@
+/**
+ * Created by gerry on 10/7/2025.
+ */
+
+.THIS.contentContainer {
+    margin: 12% 4% 4%;
+    font-size: 8pt;
+}
+
+.THIS .onOffButtons{
+    margin-left: 5%;
+}
+
+.THIS .buttonContainer{
+    margin-top: 3%;
+    font-size: 9pt;
+}
+
+.THIS .slds-form-element__label{
+    margin-bottom: 3%;
+    font-size: small;
+}
