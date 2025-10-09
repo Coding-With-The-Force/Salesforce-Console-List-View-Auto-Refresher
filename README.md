@@ -21,7 +21,7 @@ Setting up the list view refresher is extremely simple. Just traverse to your li
 
 <br/>
 
-![console list view refresher setup](https://github.com/Coding-With-The-Force/Salesforce-Console-List-View-Auto-Refresher/blob/main/setup-images/ListViewRefresherAppSetup.png?raw=true)   
+![console list view refresher setup](https://github.com/Coding-With-The-Force/Salesforce-Console-List-View-Auto-Refresher/blob/main/setup-images/ListViewRefresherAppSetup.png?raw=true) 
 
 
 ---
@@ -34,7 +34,7 @@ You can also turn off the list view refresher whenever you want by clicking the 
 
 <br/>
 
-![view of console list view refresher](https://github.com/Coding-With-The-Force/Salesforce-Console-List-View-Auto-Refresher/blob/main/setup-images/ListViewRefresherImage.png?raw=true)
+![view of console list view refresher](https://github.com/Coding-With-The-Force/Salesforce-Console-List-View-Auto-Refresher/blob/main/demo-gifs/ListViewRefresherDemo.gif)
 
 
 
