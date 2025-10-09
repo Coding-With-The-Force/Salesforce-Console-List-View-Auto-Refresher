@@ -17,12 +17,15 @@ Also, just in case anyone is wondering why this is an Aura component instead of 
 
 ### How to setup the console list view refresher
 
-Setting up the list view refresher is extremely simple. Just traverse to your lightning console app of choice (Setup -> App Manager -> Select App to Update), then add the ListViewRefresherAura component as a utility bar item with the same settings outlined in the image below:   
+Setting up the list view refresher is extremely simple. Just traverse to your lightning console app of choice (Setup -> App Manager -> Select App to Update), then add the ListViewRefresherAura component as a utility bar item with the same settings outlined in the image below (full setup gif below the image):   
 
 <br/>
 
 ![console list view refresher setup](https://github.com/Coding-With-The-Force/Salesforce-Console-List-View-Auto-Refresher/blob/main/setup-images/ListViewRefresherAppSetup.png?raw=true) 
 
+**Setup Demo**
+
+![console list view refresher setup](https://github.com/Coding-With-The-Force/Salesforce-Console-List-View-Auto-Refresher/blob/main/demo-gifs/ListViewRefresherSetup.gif)
 
 ---
 
