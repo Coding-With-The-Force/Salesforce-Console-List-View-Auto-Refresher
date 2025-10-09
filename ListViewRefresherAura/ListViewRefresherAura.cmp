@@ -1,0 +1,23 @@
+<!--
+ - Created by gerry on 10/7/2025.
+ -->
+
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+	<lightning:navigationItemAPI aura:id="navigationItemAPI"/>
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+	<aura:attribute name="refreshIntervalId" type="String"/>
+	<aura:attribute name="refreshRunning" type="Boolean" default="true"/>
+	<aura:attribute name="refreshRate" type="Integer" default="60"/>
+	<div class="contentContainer">
+		<lightning:input type="number" name="refresh rate" value="{!v.refreshRate}" label="Input the amount of seconds you would like to wait before a refresh" />
+		<div class="buttonContainer">
+			<lightning:button variant="brand" label="Change Refresh Rate" title="Set the refresh rate of the list views" onclick="{!c.setRefreshRate}"/>
+			<aura:If isTrue="{!v.refreshRunning}">
+				<lightning:button class="onOffButtons" variant="destructive" label="Stop List View Refresh" title="Stop List View Refresh" onclick="{!c.stopRefresher}"/>
+				<aura:set attribute="else">
+					<lightning:button class="onOffButtons" variant="success" label="Start List View Refresh" title="Start List View Refresh" onclick="{!c.startRefresher}"/>
+				</aura:set>
+			</aura:If>
+		</div>
+	</div>
+</aura:component>
