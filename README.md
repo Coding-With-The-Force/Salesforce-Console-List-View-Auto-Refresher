@@ -31,7 +31,7 @@ Setting up the list view refresher is extremely simple. Just traverse to your li
 
 ### How to use the console list view refrehser   
 
-By default the console list view refresher automatically will refresh your actively viewed list view once every minute. However you can change that to be a longer or shorter time period by simply changing the value in the list view refresher settings and then clicking the "Change Refresh Rate" button (as shown below).   
+By default the console list view refresher will automatically refresh your actively viewed list view once every minute. However you can change that to be a longer or shorter time period by simply changing the value in the list view refresher settings and then clicking the "Change Refresh Rate" button (as shown below).   
 
 You can also turn off the list view refresher whenever you want by clicking the "Stop List View Refresh" button. If the list view refresher is turned off, the "Stop List View Refresh" button will be replaced with a "Start List View Refresh" button to allow you to turn it back on whenever you'd like.     
 
